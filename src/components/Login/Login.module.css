@@ -1,0 +1,33 @@
+.full-form {
+  width: 90%;
+  max-width: 30rem;
+  margin: 5rem auto;
+  padding: 1rem;
+  /* border: 1px solid red; */
+}
+
+.fields {
+  display: flex;
+  flex-direction: row;
+  /* align-items: stretch; */
+}
+
+/* .fields label,
+.fields input {
+  display: block;
+} */
+
+.fields label {
+  flex: 1;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.fields input {
+  flex: 2;
+  margin-bottom: 0.5rem;
+}
+
+.btn {
+  text-align: center;
+}
