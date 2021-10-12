@@ -2,13 +2,14 @@
   width: 90%;
   max-width: 30rem;
   margin: 5rem auto;
-  padding: 1rem;
+  padding: 2rem;
   /* border: 1px solid red; */
 }
 
 .fields {
   display: flex;
   flex-direction: row;
+  margin: 0.5rem 0;
   /* align-items: stretch; */
 }
 
