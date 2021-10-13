@@ -48,4 +48,5 @@
 .btn button:hover {
   border: 1px solid skyblue;
   color: skyblue;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
 }
