@@ -27,6 +27,11 @@
   margin-bottom: 0.5rem;
 }
 
+.fields input:focus {
+  outline: none;
+  border: 1.5px solid skyblue;
+}
+
 .btn {
   text-align: center;
 }
