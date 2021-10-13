@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className={classes["main-header"]}>
       <div className={classes["main-logo"]}>
-        <a href="#">Logo Here</a>
+        <a href="/">Logo Here</a>
       </div>
       <MainNav></MainNav>
     </header>
