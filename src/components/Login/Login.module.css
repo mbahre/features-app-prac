@@ -1,7 +1,7 @@
 .full-form {
   width: 90%;
   max-width: 30rem;
-  margin: 5rem auto;
+  margin: 6rem auto;
   padding: 2rem;
   /* border: 1px solid red; */
 }
@@ -13,11 +13,6 @@
   /* align-items: stretch; */
 }
 
-/* .fields label,
-.fields input {
-  display: block;
-} */
-
 .fields label {
   flex: 1;
   font-weight: bold;
@@ -25,10 +20,28 @@
 }
 
 .fields input {
-  flex: 2;
+  flex: 4;
+  border-radius: 4px;
+  padding: 0.25rem;
+  border: 1px solid black;
   margin-bottom: 0.5rem;
 }
 
 .btn {
   text-align: center;
+}
+
+.btn button {
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 0.5rem;
+  width: 25%;
+}
+
+.btn button:hover {
+  border: 1px solid skyblue;
+  color: skyblue;
 }
