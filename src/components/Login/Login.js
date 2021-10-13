@@ -4,19 +4,23 @@ import Card from "../UI/Card";
 import classes from "./Login.module.css";
 
 function Login() {
+  const onSubmitHandler = function (e) {
+    e.preventDefault();
+  };
+
   return (
     <Card className={classes["full-form"]}>
-      <form>
+      <form onSubmit={onSubmitHandler}>
         <div className={classes.fields}>
-          <label>Username: </label>
-          <input type="text" />
+          <label htmlFor="username">Username: </label>
+          <input type="text" id="username" />
         </div>
         <div className={classes.fields}>
-          <label>Password: </label>
-          <input type="password" />
+          <label htmlFor="pw">Password: </label>
+          <input type="password" id="pw" />
         </div>
         <div className={classes.btn}>
-          <button>Login</button>
+          <button type="submit">Login</button>
         </div>
       </form>
     </Card>
