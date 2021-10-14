@@ -6,5 +6,33 @@
 }
 
 .main-nav li {
-  margin-right: 8px;
+  margin-left: 1.5rem;
+  font-size: 1.2rem;
+  align-self: center;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+.main-nav button {
+  cursor: pointer;
+  padding: 0.38rem 1.5rem;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+}
+
+.main-nav a:hover {
+  color: skyblue;
+  border-bottom: 2px solid skyblue;
+  padding-bottom: 4px;
+}
+
+.main-nav button:hover {
+  color: skyblue;
+  border: 1px solid skyblue;
+  box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.1);
 }
