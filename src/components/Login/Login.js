@@ -16,6 +16,13 @@ function Login() {
   };
 
   const onSubmitHandler = function (e) {
+    const userInfo = {
+      user: username,
+      pw: pw,
+    };
+
+    console.log(userInfo);
+
     e.preventDefault();
   };
 
