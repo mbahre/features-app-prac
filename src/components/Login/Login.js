@@ -16,6 +16,8 @@ function Login() {
   };
 
   const onSubmitHandler = function (e) {
+    e.preventDefault();
+
     const userInfo = {
       user: username,
       pw: pw,
@@ -23,7 +25,8 @@ function Login() {
 
     console.log(userInfo);
 
-    e.preventDefault();
+    setUsername("");
+    setPw("");
   };
 
   return (
